@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+$primary: #f8f7f3;
+$secondary: #1a24fb;
+
+
+
+body{
+    background-color: $primary;
+    font-family: 'Montserrat', sans-serif;;
+    color: #1a24fb;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background-color: #1a24fb;
+    font-family: 'Overpass', sans-serif;
+    color: #f8f7f3;
+    padding: 0 20px;
+    p{
+        font-size: 12px;
+        
+    }
+}
+
+.cards-container {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #1a24fb;
+    margin: 0 auto;
+    .card {
+        .number {
+            width: 40px;
+            height: 40px;
+            font-size: 24px;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .sub{
+            font-size: 12px;
+        }
+        button{
+            width: 100%;
+            height: 18px;
+            font-size: 14px;
+        }
+        .text {
+            font-size: 16px;
+        }
+    }
+}
